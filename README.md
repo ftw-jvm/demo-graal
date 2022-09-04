@@ -1,13 +1,8 @@
-## Micronaut 3.5.5 Documentation
+## Micronaut native image demo 
 
-- [User Guide](https://docs.micronaut.io/3.5.5/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.5.5/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.5.5/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
+- [Created with Launcher](https://micronaut.io/launch)
+- Following [the official tutorial](https://www.graalvm.org/dev/reference-manual/native-image/guides/build-micronaut-app-into-native-executable/)
 
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
-
+```
+./mvnw package -Dpackaging=native-image
+```
